@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Darker+Grotesque:wght@300&family=Forum&family=Gotu&family=Holtwood+One+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Oranienbaum&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800&family=Poiret+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Prata&family=Roboto:wght@100&family=Rock+Salt&family=Rufina:wght@400;700&family=Vidaloka&family=Work+Sans:wght@100&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--navbar-->
+    <nav>
+        <div class="container">
+            <img src="imagenes/logo.png" class="logo">
+            <div class="search-bar">
+                <span class="material-icons-sharp">search</span>
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./imagenes/profile-1.jpg">
+                    </div>
+                    <h5>Cami Dominguez</h5>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--aside-->
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </button>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">payment</span>
+                    <h4>Transactions</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">pie_chart</span>
+                    <h4>Analytics</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">message</span>
+                    <h4>Messages</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">help_center</span>
+                    <h4>Help Center</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h4>Settings</h4>
+                </a>
+            </div>
+    <!--end of sidebar-->
+            <div class="updates">
+                <span class="material-icons-sharp">update</span>
+                <h4>Updates Available</h4>
+                <p>Security Updates</p>
+                <p>General Updates</p>
+                <a href="#">Update Now</a>
+            </div>
+
+        </aside>
+    <!--middle-->
+    <!--cards-->
+    <section class="middle">
+        <div class="header">
+            <h1>Overview</h1>
+            <input type="date">
+        </div>
+        <div class="cards">
+    <!--card 1-->
+            <div class="card">
+                <div class="top">
+                    <div class="left">
+                        <img src="./imagenes/BTC.png">
+                        <h2>BTC</h2>
+                    </div>
+                    <img src="./imagenes/visa.png" class="right">
+                </div>
+                <div class="middle">
+                    <h1>$827,199</h1>
+                    <div class="chip">
+                        <img src="./imagenes/card chip.png" >
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <small>Card Holder</small>
+                        <h5>CAMILA DOMINGUEZ</h5>
+                    </div>
+                    <div class="right">
+                        <div class="expiry">
+                            <small>Expiry</small>
+                            <h5>08/28</h5>
+                        </div>
+                        <div class="cvv">
+                            <small>CVV</small>
+                            <h5>123</h5>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+<!--card 2-->
+            <div class="card">
+                <div class="top">
+                    <div class="left">
+                        <img src="./imagenes/ETH.png">
+                        <h2>EHT</h2>
+                    </div>
+                    <img src="./imagenes/master card.png" class="right">
+                </div>
+                <div class="middle">
+                    <h1>$965,199</h1>
+                    <div class="chip">
+                        <img src="./imagenes/card chip.png" >
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <small>Card Holder</small>
+                        <h5>CAMILA DOMINGUEZ</h5>
+                    </div>
+                    <div class="right">
+                        <div class="expiry">
+                            <small>Expiry</small>
+                            <h5>08/28</h5>
+                        </div>
+                        <div class="cvv">
+                            <small>CVV</small>
+                            <h5>123</h5>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+<!--card 3-->
+            <div class="card">
+                <div class="top">
+                    <div class="left">
+                        <img src="./imagenes/EURO.png">
+                        <h2>EHT</h2>
+                    </div>
+                    <img src="./imagenes/master card.png" class="right">
+                </div>
+                <div class="middle">
+                    <h1>$52,569</h1>
+                    <div class="chip">
+                        <img src="./imagenes/card chip.png" >
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <small>Card Holder</small>
+                        <h5>CAMILA DOMINGUEZ</h5>
+                    </div>
+                    <div class="right">
+                        <div class="expiry">
+                            <small>Expiry</small>
+                            <h5>08/27</h5>
+                        </div>
+                        <div class="cvv">
+                            <small>CVV</small>
+                            <h5>123</h5>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </div>
+        
+ <!--monthy report-->
+        <!--Income-->
+        <div class="monthly-report">
+            <div class="report">
+                <h3>Income</h3>
+                <div>
+                <details>
+                    <h1>$29,023</h1>
+                    <h6 class="sucess">+3.5%</h6>
+                </details>
+                <p class="text-muted">Compared to $26,938 last month</p>
+                </div>
+            </div>
+            <!--Expenses-->
+            <div class="report">
+                <h3>Expenses</h3>
+                <div>
+                <details>
+                    <h1>$9,005</h1>
+                    <h6 class="danger">-6.5%</h6>
+                </details>
+                <p class="text-muted">Compared to $11,938 last month</p>
+                </div>
+            </div>
+            <!--Cashback-->
+            <div class="report">
+                <h3>Cashback</h3>
+                <div>
+                <details>
+                    <h1>$7,0427</h1>
+                    <h6 class="sucess">+7.1%</h6>
+                </details>
+                <p class="text-muted">Compared to $3,938 last month</p>
+                </div>
+            </div>
+            <!--Turnover-->
+            <div class="report">
+                <h3>Turnover</h3>
+                <div>
+                <details>
+                    <h1>$118,583</h1>
+                    <h6 class="danger">-17.8%</h6>
+                </details>
+                <p class="text-muted">Compared to $136,938 last month</p>
+                </div>
+            </div>
+        </div>
+        
+
+<!--fast payment-->
+        <div class="fast-payment">
+            <h2>Fast Payment</h2>
+            <div class="badges">
+                <div class="badge">
+                    <span class="material-icons-sharp">add</span>
+                </div>
+                <div class="badge">
+                    <span class="bg-primary"></span>
+                    <div>
+                        <h5>Training</h5>
+                        <h4>$50</h4>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="bg-sucess"></span>
+                    <div>
+                        <h5>Internet</h5>
+                        <h4>$40</h4>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="bg-danger"></span>
+                    <div>
+                        <h5>Gas</h5>
+                        <h4>$190</h4>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="bg-primary"></span>
+                    <div>
+                        <h5>Education</h5>
+                        <h4>$800</h4>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="bg-danger"></span>
+                    <div>
+                        <h5>Electricity</h5>
+                        <h4>$109</h4>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="bg-sucess"></span>
+                    <div>
+                        <h5>Food</h5>
+                        <h4>$399</h4>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <canvas id="chart"></canvas>
+
+    </section>
+    <!--right-->
+    <!--investments-->
+    <section class="right">
+        <div class="investments">
+            <div class="header">
+                <h2>Investments</h2>
+                <a href="#">More <span class="material-icons-sharp">chevron_right</span></a>
+            </div>
+
+            <div class="investment">
+                <img src="./imagenes/uniliver.png">
+                <h4>Uniliver</h4>
+                <div class="date-time">
+                    <p>7 Nov, 2021</p>
+                    <small class="text-muted">9:14pm</small>
+                </div>
+                <div class="bonds">
+                    <p>1402</p>
+                    <small class="text-muted">Bonds</small>
+                </div>
+                <div class="amount">
+                    <h4>$20.033</h4>
+                    <small class="danger">-4.27%</small>
+                </div>
+            </div>
+            <div class="investment">
+                <img src="./imagenes/tesla.png">
+                <h4>Tesla</h4>
+                <div class="date-time">
+                    <p>1 Dec, 2021</p>
+                    <small class="text-muted">11:45am</small>
+                </div>
+                <div class="bonds">
+                    <p>5377</p>
+                    <small class="text-muted">Bonds</small>
+                </div>
+                <div class="amount">
+                    <h4>$720,110</h4>
+                    <small class="sucess">+38.27%</small>
+                </div>
+            </div>
+            <div class="investment">
+                <img src="./imagenes/monster.png">
+                <h4>Monster</h4>
+                <div class="date-time">
+                    <p>5 Set, 2021</p>
+                    <small class="text-muted">14:14pm</small>
+                </div>
+                <div class="bonds">
+                    <p>700</p>
+                    <small class="text-muted">Bonds</small>
+                </div>
+                <div class="amount">
+                    <h4>$13,110</h4>
+                    <small class="sucess">+7.27%</small>
+                </div>
+            </div>
+            <div class="investment">
+                <img src="./imagenes/mcdonalds.png">
+                <h4>McDonalds</h4>
+                <div class="date-time">
+                    <p>3 Nov, 2021</p>
+                    <small class="text-muted">8:17pm</small>
+                </div>
+                <div class="bonds">
+                    <p>5200</p>
+                    <small class="text-muted">Bonds</small>
+                </div>
+                <div class="amount">
+                    <h4>$78.030</h4>
+                    <small class="danger">-1.02%</small>
+                </div>
+            </div>
+            
+        </div>
+<!-- recent transactions-->
+        <div class="recent-transactions">
+            <div class="header">
+                <h2>Recent Transactions</h2>
+                <a href="#"> More <span class="material-icons-sharp">chevron_right</span></a>
+            </div>
+            
+
+            <div class="transaction">
+                <div class="service">
+                    <div class="icon bg-purple-light">
+                        <span class="material-icons-sharp purple">headphones</span>
+                    </div>
+                    <div class="details">
+                        <h4>Music</h4>
+                        <p>20.11.2021</p>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <div class="card bg-danger">
+                        <img src="./imagenes/visa.png">
+                    </div>
+                    <div class="details">
+                        <p>*2757</p>
+                        <small class="text-muted">Credit Card</small>
+                    </div>
+                </div>
+                <h4>-$20</h4>
+            </div>
+            <div class="transaction">
+                <div class="service">
+                    <div class="icon bg-purple-light">
+                        <span class="material-icons-sharp purple">shopping_bag</span>
+                    </div>
+                    <div class="details">
+                        <h4>Shopping</h4>
+                        <p>15.11.2021</p>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <div class="card bg-primary">
+                        <img src="./imagenes/visa.png">
+                    </div>
+                    <div class="details">
+                        <p>*6557</p>
+                        <small class="text-muted">Credit Card</small>
+                    </div>
+                </div>
+                <h4>-$50</h4>
+            </div>
+            <div class="transaction">
+                <div class="service">
+                    <div class="icon bg-sucess-light">
+                        <span class="material-icons-sharp sucess">restaurant</span>
+                    </div>
+                    <div class="details">
+                        <h4>Restaurant</h4>
+                        <p>19.11.2021</p>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <div class="card bg-dark">
+                        <img src="./imagenes/master card.png">
+                    </div>
+                    <div class="details">
+                        <p>*2757</p>
+                        <small class="text-muted">Credit Card</small>
+                    </div>
+                </div>
+                <h4>-$30</h4>
+            </div>
+            <div class="transaction">
+                <div class="service">
+                    <div class="icon bg-danger-light">
+                        <span class="material-icons-sharp danger">sports_esports</span>
+                    </div>
+                    <div class="details">
+                        <h4>Games</h4>
+                        <p>15.11.2021</p>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <div class="card bg-danger">
+                        <img src="./imagenes/visa.png">
+                    </div>
+                    <div class="details">
+                        <p>*3257</p>
+                        <small class="text-muted">Credit Card</small>
+                    </div>
+                </div>
+                <h4>-$25</h4>
+            </div>
+            <div class="transaction">
+                <div class="service">
+                    <div class="icon bg-danger-light">
+                        <span class="material-icons-sharp danger">medication</span>
+                    </div>
+                    <div class="details">
+                        <h4>Pharmacy</h4>
+                        <p>15.11.2021</p>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <div class="card bg-primary">
+                        <img src="./imagenes/visa.png">
+                    </div>
+                    <div class="details">
+                        <p>*2557</p>
+                        <small class="text-muted">Credit Card</small>
+                    </div>
+                </div>
+                <h4>-$20</h4>
+            </div>
+            <div class="transaction">
+                <div class="service">
+                    <div class="icon bg-sucess-light">
+                        <span class="material-icons-sharp sucess">fitness_center</span>
+                    </div>
+                    <div class="details">
+                        <h4>Fitness</h4>
+                        <p>15.11.2021</p>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <div class="card bg-dark">
+                        <img src="./imagenes/master card.png">
+                    </div>
+                    <div class="details">
+                        <p>*4512</p>
+                        <small class="text-muted">Credit Card</small>
+                    </div>
+                </div>
+                <h4>-$50</h4>
+            </div>
+            
+
+            
+        </div>
+    </section>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
